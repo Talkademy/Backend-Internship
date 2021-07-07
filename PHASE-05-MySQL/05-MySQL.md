@@ -1,10 +1,7 @@
 <div dir="rtl" align="justify">
 
-فاز دو
+فاز پنج : MySQL
 ======
-
-MySQL
-=====
 
 در این فاز، قصد داریم شما را با یک زبان از خانواده‌ی پایگاه‌داده‌های رابطه‌ای [Relational Database](https://en.wikipedia.org/wiki/Relational_database) به نام [MySQL]() آشنا کنیم.
 1. مقدمه
