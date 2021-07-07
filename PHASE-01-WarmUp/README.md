@@ -1,24 +1,16 @@
 <div dir="rtl" align='right'>
 
-# شروع به کار
+# معرفی maven
 
-یکسری کارها  برای شروع دوره باید انجام بدی
-لطفا این نرم‌افزارها که در لیست زیر گفته شده را نصب کن و کانفیگ‌های که مورد نیاز است انجام بده
-
-- نصب لینوکس Ubuntu 20.04.2.0 LTS برای نصب می‌توانی به این لینک مراجعه کنی
-- نصب گیت [How To Install Git on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
-- نصب جاوا [How To Install Java with Apt on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-20-04)
-- نصب Maven در ابونتو [Installing Apache Maven](https://maven.apache.org/install.html)
-- نصب IntelliJ IDEA از سایت [soft98](https://soft98.ir) همراه با کرک
-- برای اینکه به مشکل تحریم‌ها برنخوری [شکن](https://shecan.ir/) روی کامپیوتر ست کن
+آپاچی ماون یک ابزار مدیریت و تعریف پروژه بر پایه مفهوم POM - Project Object Model می‌باشد. Maven به‌معنی مخزن دانش می‌باشد. Maven یک روش جامع برای مدیریت پروژه از زمان کامپایل تا انتشار تا مستندسازی تا همکاری تیمی فراهم می‌سازد، در یک جمله Maven یک چارچوب مدیریت پروژه می‌باشد.
 
 ## پروژه شماره یک
 
-برای توسعه برنامه جاوایی نیاز است یک پروژه mave ی بسازی برای این کار لطفا به لینک زیر مراجعه کن
+ در این فاز برای توسعه نیاز است یک پروژه mave ی بسازی برای این کار لطفا به لینک زیر مراجعه کن
 
 [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-## تعریف پروژه
+## تعریف پروژه فاز یک
 
 در این پروژه قصد داریم فایل [EmployeeData.json](./EmployeeData.json) که اطلاعات کارمندان در فرمت json ذخیره شده است خوانده شود و در یک فایل دیگر در فرمت xml دخیره شود.
 لطفا در انجام این پروژه به موارد زیر توجه شود
