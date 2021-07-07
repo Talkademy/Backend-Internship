@@ -26,7 +26,7 @@
 - برای ذخیره فایل به صورت XML به این نکته دقت شود که آبجکت‌های جاوایی تبدل به XML شوند و داخل فایل نوشته شوند
 
 برای انجام این پروژه می‌توانید از لینک‌های زیر استفاده نمایید
--[Intro to the Jackson ObjectMapper](https://www.baeldung.com/jackson-object-mapper-tutorial)
--[XML Serialization and Deserialization with Jackson](https://www.baeldung.com/jackson-xml-serialization-and-deserialization)
+- [Intro to the Jackson ObjectMapper](https://www.baeldung.com/jackson-object-mapper-tutorial)
+- [XML Serialization and Deserialization with Jackson](https://www.baeldung.com/jackson-xml-serialization-and-deserialization)
 
 </div>
