@@ -84,6 +84,9 @@ POST /driver/login
 
 ```json
 200 OK
+{
+    "driverId":<driverId>
+}
 ```
 
 </div>
@@ -136,6 +139,8 @@ customer_id:<customer_id>
 
 ```json
 GET /driver/done
+*** Query ***
+driver_id:<driver_id>
 ```
 
 ##### Response
@@ -167,12 +172,15 @@ GET /driver/done
 
 ```json
 GET /customer/discard
+**** Query ****
+customer_id:<customer_id>
 ```
 
 ##### Request
 
 ```json
 GET /driver/discard
+driver_id:<driver_id>
 ```
 
 ##### Response
@@ -214,6 +222,7 @@ GET /driver/discard
 2. وظیفه‌ی تصمیم‌گیری درمورد نحوه‌ی استفاده از MySQL و یا Redis بر عهده‌ی شماست.
 3. توجه کنید که assign شدن راننده‌ای از سرویس دیگر، برای کلاینت شما نباید مشکلی ایجاد کند. کلاینت همچنان به شما متصل خواهد بود ولی شما به عنوان واسطه عمل می‌کنید.
 4. درخواست‌ها و پاسخ‌های عنوان شده صرفا حداقل‌ها هستند. در صورت نیاز، می‌توانید درخواست‌های دیگری نیز ایجاد کنید.
+5. در مواردی که نوع خطا ذکر نشده است، شما خود باید آن را تعیین کنید. حالات مختلف را مشخص کرده و `HttpStatus` مناسب برگردانید.
 
 </font>
 
