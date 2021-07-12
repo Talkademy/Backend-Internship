@@ -8,18 +8,18 @@
 
 ## پروژه شماره یک
 
- در این فاز برای توسعه نیاز است یک پروژه بر اساس maven بسازی برای این کار لطفا به لینک زیر مراجعه کن:
+ در این فاز برای توسعه نیاز است یک پروژه بر اساس maven بسازید برای این کار لطفا به لینک زیر مراجعه کنید:
 
 [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 ## تعریف پروژه فاز یک
 
 در این پروژه قصد داریم فایل [EmployeeData.json](./EmployeeData.json) که اطلاعات کارمندان در فرمت json ذخیره شده است خوانده شود و در یک فایل دیگر در فرمت xml دخیره شود.
-لطفا در انجام این پروژه به موارد زیر توجه کن
+لطفا در انجام این پروژه به موارد زیر توجه کنید
 - خواندن فایل json به این صورت باشد که به آبجکت‌های جاوایی نگاشت شود
 - برای ذخیره فایل به صورت XML به این نکته دقت شود که آبجکت‌های جاوایی تبدل به XML شوند و داخل فایل نوشته شوند
 
-برای انجام این پروژه می‌تونی از لینک‌های زیر استفاده کنی
+برای انجام این پروژه می‌توانید از لینک‌های زیر استفاده کنید
 - [Intro to the Jackson ObjectMapper](https://www.baeldung.com/jackson-object-mapper-tutorial)
 - [XML Serialization and Deserialization with Jackson](https://www.baeldung.com/jackson-xml-serialization-and-deserialization)
 
