@@ -2,9 +2,9 @@
 
 # شروع به کار
 
-خب بیا با هم یکسری از کارها که در ابتدا بهشون نیاز داریم رو انجام بدیم:muscle:	
+خب بیاید با هم یکسری از کارها که در ابتدا بهشون نیاز داریم رو انجام بدیم:muscle:	
   
-لطفا این نرم‌افزارها که در لیست زیر گفته شده را نصب کن و کانفیگ‌هایی که مورد نیاز است رو هم انجام بده
+لطفا این نرم‌افزارها که در لیست زیر گفته شده را نصب کنید و کانفیگ‌هایی که مورد نیاز است رو هم انجام بدید
 
 - نصب لینوکس [Ubuntu 20.04.2.0 LTS](https://www.linuxtechi.com/ubuntu-20-04-lts-installation-steps-screenshots/)
 - نصب گیت [How To Install Git on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
