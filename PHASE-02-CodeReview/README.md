@@ -1,6 +1,6 @@
 <div dir="rtl" align='right'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase02.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](https://github.com/Talkademy/Backend-internship/blob/iman-review/PHASE-02-CodeReview/02-CodeReview-Issues.md)
 
 ##  فاز دو: افزایش کیفیت کد و آشنایی با Code Review اصولی
 در این فاز با مفاهیم و تکنیک‌های مختلفی برای افزایش کیفیت کد آشنا می‌شوید، در این فاز، کد فاز قبل را به یک کد بسیار با کیفیت تبدیل می‌کنید، سپس کد خود را با سایر کارآموزان به اشتراک می‌گذارید و از آن‌ها می‌خواهید کدتان را Review کنند.
