@@ -1,6 +1,6 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](./issue-template-Phase03.md)
+[لیست تسک‌های مرتبط با این فاز به صورت issue template](https://github.com/Talkademy/Backend-internship/blob/iman-review/PHASE-03-UnitTest/03-UnitTest-Issues.md)
 
 #  فاز سه: Unit Test
 
