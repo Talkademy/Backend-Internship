@@ -39,7 +39,7 @@
 
 1. نوشتن Unit Test در جاوا:
     
-    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا و با استفاده از کتابخانه `JUnit`
+    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا با استفاده از کتابخانه `JUnit`
     مطالعه کنید. برای شروع کار با این کتابخانه، پیشنهاد می‌شود [Getting started with junit](https://riptutorial.com/junit)
     را مطالعه کنید. همچنین نحوه‌ی مشاهده‌ی Code Coverage
     را از
@@ -64,7 +64,8 @@
     در مورد هر یک از این اصول مطالعه کنید. همچنین می‌توانید از لینک‌های زیر نیز کمک بگیرید:
 
     <div dir="ltr">
-
+    
+    - [اصول طراحی نرم‌افزار با SOLID](/MoreStudy/SOLID.md)
     - [SOLID Principles in Java Application Development](https://www.jrebel.com/blog/solid-principles-in-java)
     - [S.O.L.I.D principles in Java](https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea)
 
