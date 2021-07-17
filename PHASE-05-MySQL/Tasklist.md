@@ -1,19 +1,30 @@
-Issues based on [PHASE-05-MySQL](05-MySQL.md)
 
+<div dir="rtl" align="justify">
 
-- [ ] Section 1: Understanding concepts
-    - [ ] What the **RDBMS** is
-    - [ ] Importance of **transaction** and **ACID properties**
-- [ ] Section 2: MySQL installation
-  - [ ] I was able to instsall MySQL client & server
-  - [ ] I was able to execute sample queries in the CLI
+1. هریک از مافهیم زیر را توضیح دهید 
+  - RDBMS چیست?
 
-- [ ] Section 3: Basic
+    `توضیحات خود را در این قسمت وارد نمایید`
+  - دلایل اهمیت تراکنش را توضیح دهید
+
+    `توضیحات خود را در این قسمت وارد نمایید`
+
+1. ACID مخفف چیست و هریک از موارد را به اختصار توضیح دهید
+
+    `توضیحات خود را در این قسمت وارد نمایید`
+
+1. نصب MYSQL 
+  - آیا mysql را بدون مشکل از مستند نصب کردید ؟
+  - آیا توانستید بعد از نصب برروی آن کوئری اجرا کنید؟
+1. آیا دستورات زیر را برروی mysql اجرا کردید؟
     - [ ] **CREATE**, **DROP**, **DROP**, **ALTER**
     - [ ] **INSERT**, **SELECT**, **UPDATE**, **DELETE**
     - [ ] **WHERE**, **AND** , **OR**, **NOT**
     - [ ] **LIMIT**, **COUNT**, **IN**, **BETWEEN**
     - [ ] **MIN**, **MAX**, **AVG**, **SUM**
+
+</div>
+
  
 - [ ] Section 4: Intermediate
   - [ ] **(LEFT|RIGHT|CROSS) JOIN**, **UNION**
@@ -31,15 +42,6 @@ Issues based on [PHASE-05-MySQL](05-MySQL.md)
     - [ ] **TRIGGER**
     - [ ] **ASSERTION**
 
-- [ ] Section 7: Theory problems
-  1. Insufficiencies
-     1. `[Reason 1]`
-     2. `[Reason 2]`
-  2. Solutions
-     1. `[Solution 1]`
-     2. `[Solution 2]`
-  3. `[Foreign key answer]`
-  4. `[Benefits answer]`
 
 - [ ] Section 8: Practical problem
     - [ ] Creating a `maven` project
