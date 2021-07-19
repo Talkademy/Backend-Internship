@@ -16,12 +16,12 @@
 
 <div dir="ltr">
          
-      ```sql	
-        SELECT columns
-        FROM table1 
-        INNER JOIN table2
-        ON table1.column = table2.column;
-      ```     
+```sql	
+SELECT columns
+FROM table1 
+INNER JOIN table2
+ON table1.column = table2.column;
+```
 </div>
 
 ## LEFT JOIN 
@@ -31,12 +31,12 @@
 
 <div dir="ltr">
          
-      ```sql	
-        SELECT columns
-        FROM table1
-        LEFT [OUTER] JOIN table2
-        ON table1.column = table2.column;
-      ```     
+```sql	
+SELECT columns
+FROM table1
+LEFT [OUTER] JOIN table2
+ON table1.column = table2.column;
+```     
 </div>
 
 ## RIGHT JOIN 
@@ -47,12 +47,12 @@
 
 <div dir="ltr">
          
-      ```sql	
-        SELECT columns
-        FROM table1
-        RIGHT [OUTER] JOIN table2
-        ON table1.column = table2.column;
-      ```     
+```sql	
+SELECT columns
+FROM table1
+RIGHT [OUTER] JOIN table2
+ON table1.column = table2.column;
+```     
 </div>
 
 ## CROSS JOIN
@@ -62,11 +62,11 @@
 
 <div dir="ltr">
          
-      ```sql	
-        SELECT select_list
-        FROM table_1
-        CROSS JOIN table_2;
-      ```     
+```sql	
+SELECT select_list
+FROM table_1
+CROSS JOIN table_2;
+```     
 </div>
 
 # UNION
@@ -83,11 +83,11 @@
 
 <div dir="ltr">
          
-      ```sql	
-        SELECT column_name(s) FROM table1
-        UNION
-        SELECT column_name(s) FROM table2;
-      ```     
+```sql	
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+```     
 </div>
 
 برای تسلط بیشتر متن زیر را مطالعه نمایید 
@@ -95,6 +95,48 @@
 [SQL UNION Operator](https://www.w3schools.com/sql/sql_union.asp)
 
 # GROUP BY , HAVING , EXISTS
+دستور GROUP BY سطرهای که یک مقدار دارند را در یک سطر خلاصه می‌کند مثلا تعداد افرادی که در یک شهر زندگی می کنند. 
+
+دستور GROUP BY معمولا با توابع تجمیعی مانند COUNT, MAX, MIN, SUM, AVG استفاده می‌شود.
+
+ فرمت دستور GROUP BY به صورت زیر می باشد 
+
+<div dir="ltr">
+         
+```sql	
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+ORDER BY column_name(s);
+```     
+</div>
+
+برای تسلط بیشتر متن زیر را مطالعه نمایید 
+
+[SQL GROUP BY Statement](https://www.w3schools.com/sql/sql_groupby.asp)
+
+# HAVING
+عبارت HAVING به این دلیل به SQL اضافه شد که شما نمی توانید عبارت WHERE را با توابع تجمعی استفاده کنید.   
+
+ فرمت دستور HAVING به صورت زیر می باشد 
+
+<div dir="ltr">
+         
+```sql	
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```     
+</div>
+
+برای تسلط بیشتر متن زیر را مطالعه نمایید 
+
+[SQL HAVING Clause](https://www.w3schools.com/sql/sql_having.asp)
+
 
 
 
