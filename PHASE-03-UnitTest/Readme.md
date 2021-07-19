@@ -1,7 +1,5 @@
 <div dir="rtl" align='justify'>
 
-[لیست تسک‌های مرتبط با این فاز به صورت issue template](https://github.com/Talkademy/Backend-internship/blob/reviewPhase00/PHASE-03-UnitTest/03-UnitTest-Tasks.md)
-
 #  فاز سه: Unit Test
 
 در این فاز با Unit Test،
@@ -41,7 +39,7 @@
 
 1. نوشتن Unit Test در جاوا:
     
-    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا و با استفاده از کتابخانه `JUnit`
+    در این مرحله، در مورد نحوه‌ی نوشتن تست در زبان جاوا با استفاده از کتابخانه `JUnit`
     مطالعه کنید. برای شروع کار با این کتابخانه، پیشنهاد می‌شود [Getting started with junit](https://riptutorial.com/junit)
     را مطالعه کنید. همچنین نحوه‌ی مشاهده‌ی Code Coverage
     را از
@@ -66,7 +64,8 @@
     در مورد هر یک از این اصول مطالعه کنید. همچنین می‌توانید از لینک‌های زیر نیز کمک بگیرید:
 
     <div dir="ltr">
-
+    
+    - [اصول طراحی نرم‌افزار با SOLID](/MoreStudy/SOLID.md)
     - [SOLID Principles in Java Application Development](https://www.jrebel.com/blog/solid-principles-in-java)
     - [S.O.L.I.D principles in Java](https://medium.com/@karthikcsridhar/s-o-l-i-d-principles-in-java-1aaff453d7ea)
 
@@ -108,16 +107,5 @@
     - [Unit tests with Mockito - Tutorial](https://www.vogella.com/tutorials/Mockito/article.html)
 
     </div>
-
-1. نوشتن تست برای الگوریتم جستجو:
-
-    در این مرحله، با استفاده از دانشی که در این فاز به دست آورده‌اید، برای بخش‌های مختلف کد خود تست بنویسید. سعی کنید Code Coverage
-    تست را به بالای ۹۵٪ برسانید.
-
-    برای این کار یک برنچ با نام `feature/unit-test`
-    بسازید و نوشتن تست را روی آن انجام دهید.
-
-
-
 
 </div>
