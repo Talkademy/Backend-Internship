@@ -29,4 +29,3 @@
     - [ ] **GROUP BY**, **HAVING**
 
 </div>
-
