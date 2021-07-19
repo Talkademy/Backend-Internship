@@ -123,4 +123,4 @@
 
    [CREATE INDEX](https://www.w3schools.com/MySQL/mysql_create_index.asp)
 # مطالعات بیشتر
-برای کسب دانش بیشتر در مورد SQL می توانید لینک زیر را مطالعه نمایید.
+برای کسب دانش بیشتر در مورد SQL می توانید (/ReadMore/AdvancedTopicInMySQL.md)[این] لینک  را مطالعه نمایید.
