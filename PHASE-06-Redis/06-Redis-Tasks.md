@@ -3,7 +3,6 @@ Issues based on [PHASE-06-Redis](06-Redis.md)
 
 - [ ] Section 1: Understanding concepts
     - [ ] What the **Key-Value** database is
-    - [ ] Importance of a **message broker**
     - [ ] Getting familiar with Redis datatypes
 
 - [ ] Section 2: MySQL installation
@@ -23,9 +22,9 @@ Issues based on [PHASE-06-Redis](06-Redis.md)
     - [ ] Answer: `[Upload the screenshot of your answer]`
 
 
-- [ ] Section 5: TTL
-    - [ ] Understaning importance of the **TTL**
-    - [ ] Able to set the **TTL** for Redis objects
+- [ ] Section 5: Expiration
+    - [ ] Understaning **Expiration** in Redis
+    - [ ] Able to set the **Expiration** for Redis objects
 
 - [ ] Section 6: Theory problems
   1. Differenct databases
@@ -42,7 +41,6 @@ Issues based on [PHASE-06-Redis](06-Redis.md)
 - [ ] Section 8: Practical problem
     - [ ] Creating a `maven` project
     - [ ] Creating and making queries with `Jedis`
-    - [ ] Adding new features
     - [ ] Code coverage at least 90%
         - `[FILL HERE YOUR CODE COVERAGE PERCENTAGE]`
 
