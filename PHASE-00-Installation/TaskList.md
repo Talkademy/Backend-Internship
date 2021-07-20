@@ -1,4 +1,4 @@
-Issues based on [PHASE-0](Readme.md)
+Issues based on [PHASE-00-Installation](Readme.md)
 
 - [ ] Section 1 - OS Installation
   - [ ] Shrinking volume for dual-boot / Installing a VM tool

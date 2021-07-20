@@ -1,5 +1,4 @@
-This issue template is based of [Phase09-Elasticsearch.md](./Phase09-Elasticsearch.md) contents.
-Click on "Raw" button on right side of this page to see original markdown then create a new issue with original content of this tasklist:
+Issue template based on [PHASE-09-Elasticsearch](Readme.md)
 
 
 - [ ] Section 1: Read the introduction to Elasticsearch.

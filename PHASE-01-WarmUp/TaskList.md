@@ -1,4 +1,4 @@
-Issues based on [PHASE-1](Readme.md)
+Issues based on [PHASE-1-WarmUp](Readme.md)
 
 - [ ] Section 1 - Prerequisites
   - [ ] Installing Maven

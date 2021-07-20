@@ -1,4 +1,4 @@
-Issue template is based of [PHASE-02](Readme.md)
+Issue template is based of [PHASE-02-CodeReview](Readme.md)
 
 
 - [ ] Section 1: Think on question i & ii and discuss your answers with your teammate.
