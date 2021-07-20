@@ -16,7 +16,12 @@ Issues based on [PHASE-06-Redis](06-Redis.md)
     - [ ] **Lists**
     - [ ] **Sorted Sets**
  
-- [ ] Section 4: Understanding **PUBLISH** and **SUBSCRIBE**
+- [ ] Section 4: Converting queries from **MySQL** to **Redis**
+    - [ ] Query #1: `[Your query]`
+    - [ ] Query #2: `[Your query]`
+    - [ ] Query #3: `[Your query]`
+    - [ ] Answer: `[Upload the screenshot of your answer]`
+
 
 - [ ] Section 5: TTL
     - [ ] Understaning importance of the **TTL**

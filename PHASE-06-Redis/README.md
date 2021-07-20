@@ -24,6 +24,72 @@
 
    با توجه به اینکه برنامه‌نویسی  دوره‌ی بک‌اند عموما مبتنی بر جاوا است، برای ارتباط با پایگاه داده‌ی Redis نیاز به یک واسط داریم که یکی از آن‌ها `Jedis‍` است. برای درک عملکرد این واسط می‌توانید از [این مثال](https://www.javacodegeeks.com/2013/10/getting-started-with-jedis.html) بهره ببرید.
    
+نوع داده‌ها در Redis و دستورهای کاربردی
+==============
+
+به صورت کلی می‌توان اشیاء Redis را به صورت زیر دسته‌بندی کرد:
+
+- String
+- Key
+  
+  - `SET KEY VALUE`
+  - `DEL KEY`
+  - `EXISTS KEY`
+  - `EXPIRE KEY`
+  - `RENAME KEY N_KEY`
+- Hash
+  
+  - `HMSET KEY [VALUES...]`
+  - `HGETALL KEY`
+  - `HDEL KEY [FIELDS]`
+  - `HEXIST KEY FIELD`
+  - `HGET KEY FIELD`
+- List
+  
+  - `LPUSH KEY [VALUES...]`
+  - `LRANGE KEY START_INDEX END_INDEX`
+  - `LPOP KEY`
+  - `LREM KEY COUNT VALUE`
+  - `LSET KEY INDEX VALUE`
+- Set
+  
+  - `SADD KEY [VALUES...]`
+  - `SCARD KEY`
+  - `SDIFF KEY_1 [KEY_i...]`
+  - `SINTER KEY_1 [KEY_i...]`
+  - `SPOP KEY`
+  - `SMOVE SRC_KEY DST_KEY MEMBER`
+- Sorted Set
+  
+  - `ZADD KEY [SCORE MEMBER...]`
+  - `ZCARD KEY`
+  - `ZCOUNT KEY MIN_SCORE MAX_SCORE`
+  - `ZRANK KEY MEMBER`
+
+از MySQL تا Redis
+=================
+
+برای تسلط بیشتر روی دستورهای مطرح شده (و موارد بیشتر که می‌توانید از [این لینک](https://www.javatpoint.com/redis-commands) ببینید) پرسمان‌های MySQL زیر را به Redis تبدیل کنید و در [لیست وظایف](06-Redis-Tasks.md) ثبت کنید.
+
+<div dir="ltr">
+
+- Query 1
+```SQL
+insert into Products (id, name, description, price)
+values (10200, “ZXYW”,“Description for ZXYW”, 300);
+   ```
+
+- Query 2
+```SQL
+select * from Products where id = 10200
+   ```
+
+- Query 3
+```SQL
+select * from Product where price < 300
+   ```
+
+</div>
 
 اهداف
 =====
