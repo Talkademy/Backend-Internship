@@ -2,7 +2,7 @@ Issues based on [PHASE-07-SpringBoot](07-SpringBoot.md)
 
 
 - [ ] Section 1: Understanding concepts
-    - [ ] What the **Microservice** is
+    - [ ] **Spring Boot** facilities
     - [ ] What the **Environmental variables** are
     - [ ] Usage of **REST** architecture
 
@@ -34,14 +34,11 @@ Issues based on [PHASE-07-SpringBoot](07-SpringBoot.md)
 - [ ] Section 4: Practical problem
     - [ ] Creating a `maven` project
     - [ ] Creating and making queries with `Repositories`
-    - [ ] Adding new features
+   
     - [ ] Controlling with **RestControllers**
     - [ ] Using **Configuration**
     - [ ] Creating **Entities**
     - [ ] Add **REST** architecture
-    - [ ] Handling exceptions
-    - [ ] Logging regularily
-    - [ ] Being able to send/receive requests to other servers
     - [ ] Code coverage at least 90%
         - `[FILL HERE YOUR CODE COVERAGE PERCENTAGE]`
 

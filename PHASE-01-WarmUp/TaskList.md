@@ -1,24 +1,16 @@
-<div dir="rtl" align='right'>
+Issues based on [PHASE-1](Readme.md)
 
-لطفا به سوالات زیر پاسخ دهید:
-
-1- به نظر شما چرا باید از  Maven استفاده کنیم؟
-
-توضیحات خود را در این قسمت وارد نمایید
-
-2- آیا ابزارهای جایگزینی برای Maven وجود دارد ؟ نام ببرید؟
-
-توضیحات خود را در این قسمت وارد نمایید
-
-3-فایل pom.xml در پروژهای mavenی چیست؟ 
-  
-توضیحات خود را در این قسمت وارد نمایید
-  
-4- توضیح دهید دستورات زیر چه کاری انجام می‌دهند
-
-۱- maven package
-
-۲- maven test
-
-۳- maven compile 
-</div>
+- [ ] Section 1 - Prerequisites
+  - [ ] Installing Maven
+  - [ ] Creating a simple maven project via IntelliJ
+- [ ] Section 2 - Theory questions
+  - [ ] `[Answer for 1]`
+  - [ ] `[Answer for 2]`
+  - [ ] `[Answer for 3]`
+  - [ ] `[Answer for 4.1]`
+  - [ ] `[Answer for 4.2]`
+  - [ ] `[Answer for 4.3]`
+- [ ] Section 3 - Practical assignment
+  - [ ] Creating maven project and add required dependencies
+  - [ ] Deserializing the json file
+  - [ ] Serializing the data to a XML file

@@ -1,15 +1,54 @@
-<div dir="rtl" align='justify'>
-
-1. دلالیل استفاده از Unit Test در صنعت نرم‌افزار را ذکر نمایید:
-    1. `دلیل شماره یک`
-    1. `دلیل شماره دو`
-    1. `دلیل شماره سه`
-
-1. به طور خلاصه تاثیر قوانین SOLID در Unit Test را ذکر کنید:
-    - `[توضیحات را در این قسمت وارد نمایید]`
+Issue template based on [PHASE-03](Readme.md)
 
 
-1. جرا ما باید از Mock کردن در تست‌ها استفاده کنیم؟
-    - `[توضیحات را در این قسمت وارد نمایید]`
+- [ ] Section 1: Read about **Unit Test** and its importance
+    - [ ] Find out what's Unit Testing
+    - [ ] Fill here reasons of use Unit Testing in Software development:
+        1. `[FILL HERE WITH REASONS]`
+        1. `[FILL HERE WITH REASONS]`
+        1. `[FILL HERE WITH REASONS]`
+- [ ] Section 2: Read about **Code Coverage** and its importance in Unit Testing
 
-</div>
+- [ ] Section 3: Unit Testing in **JAVA**
+    - [ ] Find out how to write unit tests in JAVA
+    - [ ] Find out how to run unit tests and check code coverage
+ 
+- [ ] Section 4: Read about **SOLID** principles in software engineering:
+  - [ ] Single Responsibility
+  - [ ] Open-Close
+  - [ ] Liskov Substitution
+  - [ ] Interface Segregation
+  - [ ] Dependency Inversion
+
+- [ ] Section 5: Read about the effect of SOLID principles on Unit Testing.
+    - [ ] Fill here the effects briefly:
+        - `[FILL HERE]`
+
+- [ ] Section 6: **Mocking**
+  - [ ] Find out what's Mocking.
+  - [ ] Find out why we should use mocking in unit tests.
+  - [ ] Find out how to use mocking in JAVA.
+
+- [ ] Section 7: Write unit tests for your search software
+    - [ ] Start writing tests
+    - [ ] Increase code coverage (line or statement coverage) to at least 95%
+        - `[FILL HERE YOUR CODE COVERAGE PERCENTAGE]`
+
+### Review
+
+Link of your own PR:
+
+`[FILL HERE WITH LINK OF YOUR PR.]`
+
+Link of other PR(s) you agreed to review:
+
+`[FILL HERE WITH LINK OF PR(s) YOU REVIEWED.]`
+
+
+- [ ] Your own PR is reviewed and approved by at least one other team.
+
+- [ ] Your own PR is reviewed and approved by mentor (hamyar).
+
+- [ ] Your own PR is reviewed and approved by manager (rahbar).
+
+- [ ] Your own PR is merged.
