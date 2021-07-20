@@ -69,9 +69,6 @@ Issues based on [PHASE-05-MySQL](05-MySQL.md)
 - [ ] Section 7: Practical problem
     - [ ] Creating a `maven` project
     - [ ] Creating and making queries with `JDBC` and `Criteria`
-    - [ ] Evaluating **Thread safety**
-      - `[Your answer]`
-    - [ ] Handling events
     - [ ] Code coverage at least 90%
         - `[FILL HERE YOUR CODE COVERAGE PERCENTAGE]`
 
