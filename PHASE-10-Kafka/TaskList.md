@@ -1,31 +1,34 @@
-<div dir='rtl'>
+Issues based on [PHASE-10-Kafka](Readme.md)
 
-## سوالات 
+- [ ] Section 1 - Concepts
+  - [ ] **Kafka** structure
+  - [ ] **Producer**
+  - [ ] **Consumer**
+  - [ ] **Streamer**
+  - [ ] **Connector**
+  - [ ] **Topic**
+  - [ ] **Partition**
 
-۱- در مورد جایگزین‌های کافکا سرچ کنیدو ۳ مورد جایکزین را نام ببرید.
+- [ ] Section 2 - Installation
+  - [ ] **Zookeeper** installation
+  - [ ] **Kafka** installation
+  - [ ] **Conduktor** (Optional)
 
-- مورد یک
-- مورد دو
-- مورد سه 
+- [ ] Section 3 - Quickstart
+  - [ ] Creating a topic
+  - [ ] Creating multiple producer
+  - [ ] Creating multiple consumer
 
- ۲- topic و partition در کافکا به چه معنی است ؟
+- [ ] Section 4 - Theory questions
+  1. Q1
+     1. `[Q1.1 answer]`
+     2. `[Q1.2 answer]`
+     3. `[Q1.3 answer]`
+     4. `[Q1.4 answer]`
+  2. `[Q2 answer]`
+  3. `[Q3 answer]`
+  4. `[Q4 answer]`
+  5. `[Q5 answer]`
+  6. `[Q6 answer]`
 
-توضیحات در این قسمت ذکر شود
-
-۳- Retention در topic به چه معنا است و مقدار پیش‌فرض چه مقدار است ؟
-
-جواب سوال در این قسمت وارد شود
-
-۴- Replication Factor در کافکا به چه معنی است ؟ به نظر شما مقدار مناسب چه عددی است ؟
-
-جواب سوال در این قسمت وارد شود
-
-consumer group در کافکا به چه معنی است ؟ و در صورتی که دو مصرف کننده در یک consumer group یکسان باشد چه اتفاقی می‌افتد؟
-
-جواب سوال در این قسمت وارد شود
-
- ۵- چکونه امکان دارد که دیتاهای مرتبط با یکدیگر در یک پارتیشن دخیره شوند  و توسط یک مصرف کننده پردازش شوند؟
-
-جواب سوال در این قسمت وارد شود
-
-</div>
+- [ ] Section 5 - Practical exercise
