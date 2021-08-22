@@ -5,25 +5,58 @@
 
 در این فاز، قصد داریم تا شما را با شیوه‌ی استفاده از الاستیک و کافکا در جاوا آشنا کنیم. همچنین به توانمندی‌ها و مزایای این ابزارها (در قیاس با `MySQL` و یا سرویس‌های تک‌گرهی(`Single node`)) بهتر پی‌ببرید.
 
-پروژه‌ی شما آماده‌سازی یک موتور جستجو برای StackOverFlow است. به شما پست‌ها، کاربران، نظرات و... این وب‌سایت کارآمد! که مربوط به سال گذشته است داده می‌شود و شما باید `api`های زیر را  طراحی کنید.
+پروژه‌ی شما آماده‌سازی یک موتور جستجو برای StackOverFlow است. به شما پست‌ها، کاربران، نظرات و... این وب‌سایت کارآمد! که مربوط به سالیان گذشته است داده می‌شود و شما باید `api`های زیر را  طراحی کنید.
 
 <div dir="ltr" >
 
 * `POST - http://api_d/posts`
-* `POST - http://api_d/badges`
-* `POST - http://api_d/comments`
-* `POST - http://api_d/tags`
-* `POST - http://api_d/users`
-* `POST - http://api_d/votes`
+  ```json
+  Request: {
+      "kw": "String - keywords (in Text, title)",
+      "from_date": "Date",
+      "t_names": ["String - tag names"],
+      "min_score": "Integer",
+      "cnt_in_page": "Integer",
+      "page_no": "Integer"
+  }
+  Response: {
+      "posts_list": [
+          {
+              "orig_post_id": "Integer",
+              "orig_post_title": "String",
+              "orig_post_body": "String",
+              "orig_post_score": "Integer",
+              "orig_post_comments": [
+                  {
+                    "u_name": "String",
+                    "body": "String"
+                  }
+              ],
+              "best_ans_id": "Integer",
+              "best_ans_body": "String",
+              "best_ans_score": "Integer"
+          }
+      ]
+  }
+  ```
+* `GET - http://api_d/tags/all`
+  ```json
+  Request: {}
+  Response: {
+      "t_id": "Integer",
+      "t_name": "String",
+      "t_cnt": "Integer"
+  }
+  ```
 
 </div>
 
-در هر مورد، شما یک بدنه‌ی `JSON` ارسال می‌کنید و داده‌های مطابق با آن را برمی‌گردانید. همچنین `api_d` نشانی `api` شماست.
+  `api_d` نشانی `api` شماست.
 
 گام ۰ - داده‌های مورد نیاز
 =========================
 
-برای شروع کار بهتر است از این [لینک](www.google.com) داده‌های مربوط را دریافت نمایید. توجه داشته باشید که حجم این موارد پس از غیرفشرده‌سازی حدود ۲ گیگ خواهد بود.
+برای شروع کار بهتر است از این [لینک](https://archive.org/download/stackexchange/softwareengineering.stackexchange.com.7z) داده‌های مربوط را دریافت نمایید. توجه داشته باشید که حجم این موارد پس از غیرفشرده‌سازی حدود ۲ گیگ خواهد بود.
 
 گام ۱ - فاز ۸!
 ==============
