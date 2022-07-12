@@ -5,7 +5,7 @@ Issues based on [PHASE-06-Redis](06-Redis.md)
     - [ ] What the **Key-Value** database is
     - [ ] Getting familiar with Redis datatypes
 
-- [ ] Section 2: MySQL installation
+- [ ] Section 2: Redis installation
   - [ ] I was able to instsall Redis client & server
   - [ ] I was able to execute sample queries in the CLI
 
