@@ -30,6 +30,7 @@
 - نام درس
 - ظرفیت
 
+دقت کنید هر دانشجو برای هر درسی که باید یک استاد ارائه می‌شود یک نمره دارد. 
 
 ممکن است نیاز شود چند جدول واسط نیز اضافه کنید. (در صورت استفاده منطق پیاده‌سازی و طراحی پایگاه‌داده را به اختصار توضیح دهید.)
 
@@ -43,11 +44,16 @@
 - add student \<parameters\> (insert)
 - add course \<parameters\> (insert)
 - add professor \<parameters\> (insert)
-- register student_id course_id (foreign key)
-- w student_id course_id (delete)
 - accept professor_id course_id (foreign key)
+- register student_id course_id (foreign key)
+- deleteCourse student_id course_id (delete)
 - change student_id fave (update)
 - score professor_id student_id \<score\> (update)
-- view students gpa \<score\> (select) - مشاهده‌ی دانشجویانی با وضعیت کل حداقل score
+- view average \<score\> for course_id(select,avg)
+- view students gpa \<score\> (select) - مشاهده‌ی دانشجویانی بانمره کل حداقلscore  
+- view student count for ech favourite course(select,group by) - برای هر درسی ، تعداد دانشجویانی که این درس موردعلاقه آن‌ها بوده نمایش داده شود.
+
+
+اضافه کردن پرسمان‌های اضافه‌ی دیگر مانعی ندارد.
 
 </div>
