@@ -36,7 +36,7 @@ Issues based on [PHASE-06-MySQL](Readme.md)
 
 - [ ] Section 7: Practical problem
     - [ ] Creating a `maven` project
-    - [ ] Creating and making queries with `JDBC` and `Criteria`
+    - [ ] Creating and making queries with `JDBC`
     - [ ] Code coverage at least 90%
         - `[FILL HERE YOUR CODE COVERAGE PERCENTAGE]`
 
